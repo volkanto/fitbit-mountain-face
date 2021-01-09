@@ -1,0 +1,89 @@
+.background {
+  viewport-fill: gray;
+}
+
+#clock-label {
+  font-size: 80;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 150;
+  y: 280;
+  fill: white;
+}
+
+#date-label {
+  /* x: 240;
+  y: 40; */
+  x: 150;
+  y: 220;
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 22;
+  text-anchor: middle;
+  fill: gray;
+}
+
+#battery {
+  x: 273;
+  y: 2;
+  width: 24;
+  height: 24;
+}
+
+#battery-label {
+  x: 260;
+  y: 20;
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 22;
+  text-anchor: middle;
+  fill: white;
+}
+
+#heart {
+  x: 2;
+  y: 2;
+  width: 24;
+  height: 24;
+}
+
+#heart-rate-label {
+  x: 42;
+  y: 20;
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 22;
+  text-anchor: middle;
+  fill: white;
+}
+
+/* #water-label {
+  x: 10;
+  y: 40;
+  width: 24;
+  height: 24;
+  viewBox: 0 0 24 24;
+  font-size: 30;
+  stroke: white;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+} */
+
+#water-label {
+  x: 10;
+  y: 40;
+  z-index: 999;
+}
+
+#message-label {
+  font-size: 30;
+  font-family: System-Bold;
+  text-length: 22;
+  text-anchor: middle;
+  x: 110;
+  y: 180;
+  fill: white;
+}

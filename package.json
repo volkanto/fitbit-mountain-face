@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0",
+    "@fitbit/sdk-cli": "^1.7.0-pre.1"
+  },
+  "fitbit": {
+    "appUUID": "da61ec01-afa9-4159-bfd6-c33c03076d8c",
+    "appType": "clockface",
+    "appDisplayName": "mountain-face",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_user_profile",
+      "access_heart_rate",
+      "access_location"
+    ],
+    "buildTargets": [
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "mountain-face"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

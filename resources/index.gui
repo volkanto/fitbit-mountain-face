@@ -1,0 +1,17 @@
+<svg class="background">
+  <!-- set backgroun image -->
+  <image id="background-image" href="images/mountain.png" />
+  
+  <!-- heart beat information -->
+  <image id="heart" href="images/heart.png" />
+  <text id="heart-rate-label" />
+  
+  <!-- battery information -->
+  <text id="battery-label" />
+  <image id="battery" href="images/battery.png" />
+  
+  <!-- date and time information-->
+  <text id="clock-label" />
+  <text id="date-label" />
+  
+</svg>
