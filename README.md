@@ -16,7 +16,7 @@ https://studio.fitbit.com/
 
 ## Installing
 
-You have to clone repository to your local machine
+You have to clone the repository to your local machine
 
 ```shell
 git clone https://github.com/volkanto/fitbit-mountain-face.git
@@ -34,7 +34,7 @@ Build dependencies
 npm install
 ```
 
-Build application
+Build the application
 
 ```shell
 npx fitbit-build
@@ -46,7 +46,7 @@ Connect to the simulator
 npx fitbit
 ```
 
-Install built application to the simulator
+Install the built application to the simulator
 
 ```shell
 install
