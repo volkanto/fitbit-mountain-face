@@ -46,7 +46,7 @@ Connect to the simulator
 npx fitbit
 ```
 
-Install build application to simulator
+Install built application to the simulator
 
 ```shell
 install
