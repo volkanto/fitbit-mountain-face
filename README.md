@@ -59,7 +59,7 @@ If everything goes well and there is no error in the terminal logs, you will see
 ## Built With
 
 * [Fitbit SDK](https://dev.fitbit.com/getting-started/) - To develop applications or clock faces for Fitbit devices.
-* [Fitbit OS Simulator]([https://](https://dev.fitbit.com/release-notes/fitbit-os-simulator/)) - To see the application or clock faces on a local simulator.
+* [Fitbit OS Simulator](https://dev.fitbit.com/release-notes/fitbit-os-simulator/) - To see the application or clock faces on a local simulator.
 
 ## Issues
 
