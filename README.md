@@ -28,6 +28,8 @@ Go to project folder
 cd fitbit-mountain-face
 ```
 
+Build dependencies
+
 ```shell
 npm install
 ```
