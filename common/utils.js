@@ -15,7 +15,7 @@ export function zeroPad(number) {
  * @param {Integer} hours 
  */
 export function getHour(displayFormat, hours) {
-  return displayFormat === "12h" ? (hours % 12 || 12) : hours; 
+  return displayFormat === "12h" ? (hours % 12 || 12) : hours;
 }
 
 /**
@@ -34,27 +34,5 @@ export function getMontName(monthIndex) {
   return _months[monthIndex];
 }
 
-const _days = {
-  0: 'PAZ',
-  1: 'PZT',
-  2: 'SAL',
-  3: 'ÇAR',
-  4: 'PER',
-  5: 'CUM',
-  6: 'CMT'
-};
-
-const _months = {
-  0: 'OCA',
-  1: 'ŞUB',
-  2: 'MAR',
-  3: 'NİS',
-  4: 'MAY',
-  5: 'HAZ',
-  6: 'TEM',
-  7: 'AĞU',
-  8: 'EYL',
-  9: 'EKİ',
-  10: 'KAS',
-  11: 'ARA'
-}
+const _days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+const _months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']

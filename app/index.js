@@ -6,9 +6,6 @@ import document from "document";
 import { preferences } from "user-settings";
 import * as util from "../common/utils";
 
-// Update the clock every minute. This can be seconds, minutes, or hours
-clock.granularity = "minutes";
-
 // Get a handle on the <text> element
 const _clock = document.getElementById("clock-label");
 const _date = document.getElementById("date-label");
@@ -16,6 +13,9 @@ const _heartRate = document.getElementById("heart-rate-label");
 const _batteryLevel = document.getElementById("battery-label");
 
 // const _bgImage = document.getElementById("background-image");
+
+// Update the clock every minute. This can be seconds, minutes, or hours
+clock.granularity = "minutes";
 
 // Update the <text> element every tick with the current time
 clock.ontick = (evt) => {

@@ -13,8 +13,6 @@
 }
 
 #date-label {
-  /* x: 240;
-  y: 40; */
   x: 150;
   y: 220;
   font-size: 20;
@@ -25,36 +23,38 @@
 }
 
 #battery {
-  x: 273;
+  x: 276;
   y: 2;
   width: 24;
   height: 24;
+  text-anchor: end;
 }
 
 #battery-label {
-  x: 260;
+  x: 274;
   y: 20;
   font-size: 20;
   font-family: System-Bold;
   text-length: 22;
-  text-anchor: middle;
+  text-anchor: end;
   fill: white;
 }
 
 #heart {
   x: 2;
   y: 2;
+  text-anchor: start;
   width: 24;
   height: 24;
 }
 
 #heart-rate-label {
-  x: 42;
+  x: 28;
   y: 20;
   font-size: 20;
   font-family: System-Bold;
   text-length: 22;
-  text-anchor: middle;
+  text-anchor: start;
   fill: white;
 }
 
