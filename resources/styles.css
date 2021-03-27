@@ -58,26 +58,6 @@
   fill: white;
 }
 
-/* #water-label {
-  x: 10;
-  y: 40;
-  width: 24;
-  height: 24;
-  viewBox: 0 0 24 24;
-  font-size: 30;
-  stroke: white;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  fill: none;
-} */
-
-#water-label {
-  x: 10;
-  y: 40;
-  z-index: 999;
-}
-
 #message-label {
   font-size: 30;
   font-family: System-Bold;
