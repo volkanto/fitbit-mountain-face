@@ -1,17 +1,24 @@
-<svg class="background">
+<svg>
   <!-- set backgroun image -->
   <image id="background-image" href="images/mountain.png" />
-  
+
   <!-- heart beat information -->
   <image id="heart" href="images/heart.png" />
   <text id="heart-rate-label" />
-  
+
   <!-- battery information -->
   <text id="battery-label" />
   <image id="battery" href="images/battery.png" />
-  
+
   <!-- date and time information-->
-  <text id="clock-label" />
   <text id="date-label" />
-  
+  <use href="#fitfont" id="clock-label">
+    <use href="#fitfont-char" />
+    <use href="#fitfont-char" />
+    <use href="#fitfont-char" />
+    <use href="#fitfont-char" />
+    <use href="#fitfont-char" />
+    <!-- add as many characters as needed -->
+  </use>
 </svg>
+

@@ -6,11 +6,19 @@ import document from "document";
 import { preferences } from "user-settings";
 import * as util from "../common/utils";
 
+import { FitFont } from 'fitfont'
+
+
 // Get a handle on the <text> element
-const _clock = document.getElementById("clock-label");
 const _date = document.getElementById("date-label");
 const _heartRate = document.getElementById("heart-rate-label");
 const _batteryLevel = document.getElementById("battery-label");
+const _clock = new FitFont({
+  id: 'clock-label',
+  font: 'Bungee_Inline_80',
+  halign: 'middle'
+})
+
 
 // const _bgImage = document.getElementById("background-image");
 
@@ -28,7 +36,7 @@ clock.ontick = (evt) => {
 
 // Create a new instance of the HeartRateSensor object
 let _hrm = new HeartRateSensor();
-_hrm.onreading = function() {
+_hrm.onreading = function () {
   // Peek the current sensor values
   _heartRate.text = _hrm.heartRate;
 }
@@ -43,7 +51,7 @@ function stopHeartRateSensor() {
   _hrm.stop();
 }
 
-display.addEventListener('change', function() {
+display.addEventListener('change', function () {
   if (this.on) {
     updateHeartRateSensor();
     checkAndUpdateBatteryLevel();
@@ -97,5 +105,5 @@ function updateBackground(hours) {
  * Updates the battery level
  */
 function checkAndUpdateBatteryLevel() {
-  _batteryLevel.text = battery.chargeLevel;
+  _batteryLevel.text = battery.chargeLevel + '%';
 }
