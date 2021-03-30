@@ -1,5 +1,7 @@
 # Fitbit Mountain Clock Face
 
+[![fitbit gallery](https://img.shields.io/badge/Fitbit%20Gallery-v1.0.0-green.svg)](https://gallery.fitbit.com/details/da61ec01-afa9-4159-bfd6-c33c03076d8c)
+
 Mountain clock face for Fitbit Versa 2, Versa and Versa Lite.
 
 ## Prerequisites
