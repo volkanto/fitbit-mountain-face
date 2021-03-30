@@ -34,6 +34,10 @@ clock.ontick = (evt) => {
   updateDate(evt.date);
 }
 
+battery.onchange = (charger, evt) => {
+  checkAndUpdateBatteryLevel();
+}
+
 // Create a new instance of the HeartRateSensor object
 let _hrm = new HeartRateSensor();
 _hrm.onreading = function () {
